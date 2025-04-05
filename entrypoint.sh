@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "▶️ Устанавливаем Playwright браузеры..."
+echo "▶️ Установка браузеров Playwright..."
 playwright install chromium
 
-echo "🚀 Запускаем парсинг ЦИАН и отправку в Telegram..."
-python3 cian_checker.py
+echo "🚀 Запускаем нейро-продавца..."
+python telegram_sender.py
